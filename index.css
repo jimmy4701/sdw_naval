@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#grid {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.case {
+    border: 2px solid black;
+    width: 32%;
+}
+
+.case.red {
+    background-color: red;
+}
+
+.case.blue {
+    background-color: blue;
+}
